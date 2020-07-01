@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - MBProgressHUD (1.2.0)
+  - MFBPHTTP (0.1.0):
+    - AFNetworking (~> 3.2.1)
+    - MBProgressHUD (~> 1.2.0)
+
+DEPENDENCIES:
+  - MFBPHTTP (from `../`)
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - AFNetworking
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  MFBPHTTP:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MFBPHTTP: 1ed796f4e85ac7e8ffebe25cac4d75418e921c49
+
+PODFILE CHECKSUM: 5491bdc45ddf830a0e5fa813366b99fed1d25dd3
+
+COCOAPODS: 1.8.4

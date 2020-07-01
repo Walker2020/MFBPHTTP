@@ -1,0 +1,6 @@
+framework module Pods_MFBPHTTP_Tests {
+  umbrella header "Pods-MFBPHTTP_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

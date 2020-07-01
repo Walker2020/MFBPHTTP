@@ -1,0 +1,15 @@
+use_frameworks!
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '8.0'
+
+
+target 'MFBPHTTP_Example' do
+  pod 'MFBPHTTP', :path => '../'
+
+  target 'MFBPHTTP_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

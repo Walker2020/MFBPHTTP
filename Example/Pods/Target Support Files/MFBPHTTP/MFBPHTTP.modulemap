@@ -1,0 +1,6 @@
+framework module MFBPHTTP {
+  umbrella header "MFBPHTTP-umbrella.h"
+
+  export *
+  module * { export * }
+}

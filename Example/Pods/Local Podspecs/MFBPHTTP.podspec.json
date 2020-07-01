@@ -1,0 +1,36 @@
+{
+  "name": "MFBPHTTP",
+  "version": "0.1.0",
+  "summary": "A short description of MFBPHTTP.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1346466001@qq.com/MFBPHTTP",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1346466001@qq.com": "dengjinhui@lakala.com"
+  },
+  "source": {
+    "git": "https://github.com/1346466001@qq.com/MFBPHTTP.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "MFBPHTTP/Classes/**/*",
+    "MFBPHTTP/src/Json/**/*",
+    "MFBPHTTP/src/Net/**/*",
+    "MFBPHTTP/src/until/**/*"
+  ],
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "AFNetworking": [
+      "~>3.2.1"
+    ],
+    "MBProgressHUD": [
+      "~>1.2.0"
+    ]
+  }
+}
